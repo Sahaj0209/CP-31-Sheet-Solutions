@@ -18,7 +18,7 @@ int main(){
         if(k==4){
             if(noEven==0) minAbsDiff=min(minAbsDiff,2LL);
             else if(noEven==1) minAbsDiff=min(minAbsDiff,1LL);
-            else if(noEven>11=2) minAbsDiff=min(minAbsDiff,0LL);
+            else if(noEven>=2) minAbsDiff=min(minAbsDiff,0LL);
         }
         cout<<minAbsDiff<<endl;
     }
